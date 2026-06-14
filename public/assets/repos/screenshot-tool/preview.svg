@@ -1,0 +1,94 @@
+<svg width="800" height="450" viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#faf9f7"/>
+
+  <!-- Window shadow -->
+  <rect x="42" y="26" width="716" height="398" rx="10" fill="#1a1a18" opacity="0.07"/>
+
+  <!-- Window body -->
+  <rect x="40" y="22" width="720" height="400" rx="10" fill="white" stroke="#e8e4dc" stroke-width="1"/>
+
+  <!-- Title bar -->
+  <rect x="40" y="22" width="720" height="34" rx="10" fill="#1a1a18"/>
+  <rect x="40" y="40" width="720" height="16" fill="#1a1a18"/>
+
+  <!-- Title text -->
+  <text x="400" y="43" text-anchor="middle" fill="white" font-family="system-ui,Arial,sans-serif" font-size="12" font-weight="500">スクリーンショットツール</text>
+
+  <!-- Windows-style controls (right) -->
+  <text x="690" y="43" fill="white" font-family="system-ui,Arial,sans-serif" font-size="12" opacity="0.6">—</text>
+  <text x="718" y="42" fill="white" font-family="system-ui,Arial,sans-serif" font-size="10" opacity="0.6">□</text>
+  <text x="746" y="43" fill="white" font-family="system-ui,Arial,sans-serif" font-size="13" opacity="0.6">✕</text>
+
+  <!-- Left panel -->
+  <rect x="40" y="56" width="188" height="366" fill="#faf9f7"/>
+  <line x1="228" y1="56" x2="228" y2="422" stroke="#e8e4dc" stroke-width="1"/>
+
+  <!-- 親フォルダ label -->
+  <text x="56" y="78" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="0.04em">親フォルダ</text>
+
+  <!-- Path input -->
+  <rect x="52" y="84" width="160" height="26" rx="5" fill="white" stroke="#e8e4dc" stroke-width="1"/>
+  <text x="62" y="100" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10">Documents/Screenshots</text>
+
+  <!-- 保存先 label -->
+  <text x="56" y="128" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10" font-weight="600" letter-spacing="0.04em">保存先フォルダ</text>
+
+  <!-- Folder list -->
+  <rect x="52" y="134" width="160" height="28" rx="5" fill="#1a1a18"/>
+  <text x="68" y="152" fill="white" font-family="system-ui,Arial,sans-serif" font-size="11" font-weight="500">研究</text>
+
+  <rect x="52" y="168" width="160" height="28" rx="5" fill="transparent"/>
+  <text x="68" y="186" fill="#1a1a18" font-family="system-ui,Arial,sans-serif" font-size="11">講義</text>
+
+  <rect x="52" y="202" width="160" height="28" rx="5" fill="transparent"/>
+  <text x="68" y="220" fill="#1a1a18" font-family="system-ui,Arial,sans-serif" font-size="11">就活</text>
+
+  <rect x="52" y="236" width="160" height="28" rx="5" fill="transparent"/>
+  <text x="68" y="254" fill="#1a1a18" font-family="system-ui,Arial,sans-serif" font-size="11">個人</text>
+
+  <rect x="52" y="270" width="160" height="28" rx="5" fill="transparent"/>
+  <text x="68" y="288" fill="#1a1a18" font-family="system-ui,Arial,sans-serif" font-size="11">その他</text>
+
+  <!-- New folder button -->
+  <rect x="52" y="314" width="160" height="26" rx="13" fill="transparent" stroke="#e8e4dc" stroke-width="1"/>
+  <text x="132" y="331" text-anchor="middle" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10">＋ 新しいフォルダ</text>
+
+  <!-- Right area: path bar -->
+  <rect x="228" y="56" width="532" height="30" fill="#faf9f7"/>
+  <text x="244" y="75" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10">保存先: Documents/Screenshots/研究</text>
+  <line x1="228" y1="86" x2="760" y2="86" stroke="#e8e4dc" stroke-width="1"/>
+
+  <!-- Capture button -->
+  <rect x="334" y="102" width="228" height="36" rx="18" fill="#1a1a18"/>
+  <text x="448" y="125" text-anchor="middle" fill="white" font-family="system-ui,Arial,sans-serif" font-size="13" font-weight="600">範囲を選択して撮影</text>
+
+  <!-- Preview area -->
+  <rect x="244" y="154" width="500" height="234" rx="8" fill="#f5f4f2" stroke="#e8e4dc" stroke-width="1"/>
+
+  <!-- Dashed selection box -->
+  <rect x="270" y="172" width="380" height="178" fill="rgba(196,168,130,0.07)" stroke="#c4a882" stroke-width="1.5" stroke-dasharray="8,5"/>
+
+  <!-- Corner handles -->
+  <rect x="265" y="167" width="9" height="9" rx="1" fill="#1a1a18"/>
+  <rect x="641" y="167" width="9" height="9" rx="1" fill="#1a1a18"/>
+  <rect x="265" y="341" width="9" height="9" rx="1" fill="#1a1a18"/>
+  <rect x="641" y="341" width="9" height="9" rx="1" fill="#1a1a18"/>
+
+  <!-- Mid-edge handles -->
+  <rect x="452" y="167" width="7" height="7" rx="1" fill="#1a1a18"/>
+  <rect x="452" y="343" width="7" height="7" rx="1" fill="#1a1a18"/>
+  <rect x="265" y="254" width="7" height="7" rx="1" fill="#1a1a18"/>
+  <rect x="643" y="254" width="7" height="7" rx="1" fill="#1a1a18"/>
+
+  <!-- Size label -->
+  <rect x="398" y="248" width="104" height="20" rx="10" fill="#1a1a18" opacity="0.72"/>
+  <text x="450" y="262" text-anchor="middle" fill="white" font-family="system-ui,Arial,sans-serif" font-size="9.5">1280 × 720 px</text>
+
+  <!-- Esc hint -->
+  <text x="448" y="406" text-anchor="middle" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="10">Esc でキャンセル</text>
+
+  <!-- Status bar -->
+  <line x1="40" y1="408" x2="760" y2="408" stroke="#e8e4dc" stroke-width="0.75"/>
+  <text x="56" y="420" fill="#6b6b63" font-family="system-ui,Arial,sans-serif" font-size="9.5">screenshot_20260614_152301.png を保存しました</text>
+</svg>
