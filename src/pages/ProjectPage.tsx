@@ -3,7 +3,6 @@ import { Link, useParams } from 'react-router-dom'
 import { projects } from '../data/projects'
 import type { MediaItem } from '../data/projects'
 import MediaBlock from '../components/MediaBlock'
-import TechnicalCard from '../components/TechnicalCard'
 
 function HeroImage({ item, flexBasis }: { item: MediaItem; flexBasis: string }) {
   const [failed, setFailed] = useState(false)
@@ -66,24 +65,6 @@ export default function ProjectPage() {
               <MediaBlock item={project.demoVideo} />
             </div>
           )}
-        </div>
-      </section>
-
-      {/* Technical Overview */}
-      <section className="section">
-        <div className="section__inner">
-          <div className="section__header">
-            <div className="section__label">02 Technical Overview</div>
-            <h2 className="section__title">Technical Overview</h2>
-          </div>
-          <div className="section__body">
-            <p>UI・制御・ハードウェア・製作・評価を横断して形にした研究です。</p>
-          </div>
-          <div className="tech-cards">
-            {project.technical.map(card => (
-              <TechnicalCard key={card.title} card={card} />
-            ))}
-          </div>
         </div>
       </section>
 
