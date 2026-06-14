@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import type { MediaItem } from '../data/projects'
+import { asset } from '../utils/asset'
 
 const PlaceholderIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="placeholder-icon">
@@ -37,11 +38,11 @@ export default function MediaBlock({ item }: Props) {
             muted
             loop
             playsInline
-            poster={item.poster}
+            poster={item.poster ? asset(item.poster) : undefined}
             aria-label={item.alt}
             onError={() => setFailed(true)}
           >
-            <source src={item.src} type="video/mp4" />
+            <source src={asset(item.src)} type="video/mp4" />
           </video>
         )}
       </div>
@@ -57,7 +58,7 @@ export default function MediaBlock({ item }: Props) {
         </div>
       ) : (
         <img
-          src={item.src}
+          src={asset(item.src)}
           alt={item.alt}
           loading="lazy"
           onError={() => setFailed(true)}

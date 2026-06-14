@@ -3,13 +3,14 @@ import { Link, useParams } from 'react-router-dom'
 import { projects } from '../data/projects'
 import type { MediaItem } from '../data/projects'
 import MediaBlock from '../components/MediaBlock'
+import { asset } from '../utils/asset'
 
 function HeroImage({ item, flexBasis }: { item: MediaItem; flexBasis: string }) {
   const [failed, setFailed] = useState(false)
   return (
     <div className="hero__image-slot" style={{ flex: `0 0 ${flexBasis}` }}>
       {!failed && (
-        <img src={item.src} alt={item.alt} onError={() => setFailed(true)} />
+        <img src={asset(item.src)} alt={item.alt} onError={() => setFailed(true)} />
       )}
     </div>
   )

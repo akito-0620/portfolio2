@@ -4,6 +4,7 @@ import { projects } from '../data/projects'
 import type { Project, RepoProject } from '../data/projects'
 import { profile } from '../data/profile'
 import MediaBlock from '../components/MediaBlock'
+import { asset } from '../utils/asset'
 
 function Avatar() {
   const [failed, setFailed] = useState(false)
@@ -14,7 +15,7 @@ function Avatar() {
           {profile.nameEn.split(' ').map(s => s[0]).join('')}
         </span>
       ) : (
-        <img src={profile.avatar} alt={profile.nameEn} onError={() => setFailed(true)} />
+        <img src={asset(profile.avatar)} alt={profile.nameEn} onError={() => setFailed(true)} />
       )}
     </div>
   )
