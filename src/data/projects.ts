@@ -19,6 +19,7 @@ export interface ChildSection {
   title: string
   body: string[]
   comment?: string
+  links?: { label: string; href: string }[]
   media: MediaItem[]
 }
 
@@ -119,6 +120,30 @@ export const projects: AnyProject[] = [
             alt: 'WISS demo exhibition',
           },
 
+        ],
+      },
+      {
+        id: 'uist',
+        label: 'UIST 2026',
+        title: 'UIST 2026 Paper Presentation',
+        body: [
+          'HCI分野の国際会議であるUIST 2026（The 39th Annual ACM Symposium on User Interface Software and Technology, 2026年11月2–5日, 米国デトロイト）にて、Dishplayをフルペーパーとして採択・登壇発表しました。',
+          '国立陽明交通大学（台湾）との共同研究として、食品そのものを表示媒体とするアプローチを国際的な研究コミュニティに向けて発表しました。',
+        ],
+        links: [
+          { label: 'Paper (ACM DL)', href: 'https://doi.org/10.1145/3830398.3830592' },
+        ],
+        media: [
+          {
+            type: 'image',
+            src: '/assets/dishplay/07_uist2026/uist_presentation.jpg',
+            alt: 'UIST 2026 presentation (photo coming soon)',
+          },
+          {
+            type: 'image',
+            src: '/assets/dishplay/07_uist2026/uist_venue.jpg',
+            alt: 'UIST 2026 venue (photo coming soon)',
+          },
         ],
       },
       {

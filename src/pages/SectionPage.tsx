@@ -34,6 +34,14 @@ export default function SectionPage() {
           {section.body.map((p, i) => <p key={i}>{p}</p>)}
         </div>
 
+        {section.links && section.links.length > 0 && (
+          <div className="section__links">
+            {section.links.map(l => (
+              <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer">{l.label} ↗</a>
+            ))}
+          </div>
+        )}
+
         {section.comment && (
           <blockquote className="section__comment">{section.comment}</blockquote>
         )}
