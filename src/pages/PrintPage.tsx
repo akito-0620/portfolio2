@@ -74,14 +74,6 @@ export default function PrintPage() {
                 <div className="section__body">
                   {child.body.map((p, i) => <p key={i}>{p}</p>)}
                 </div>
-                {child.links && child.links.length > 0 && (
-                  <div className="section__links">
-                    {child.links.map(l => (
-                      <a key={l.href} href={l.href} target="_blank" rel="noopener noreferrer">{l.label} ↗</a>
-                    ))}
-                  </div>
-                )}
-
                 {child.comment && (
                   <blockquote className="section__comment">{child.comment}</blockquote>
                 )}

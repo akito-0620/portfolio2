@@ -19,7 +19,6 @@ export interface ChildSection {
   title: string
   body: string[]
   comment?: string
-  links?: { label: string; href: string }[]
   media: MediaItem[]
 }
 
@@ -128,10 +127,6 @@ export const projects: AnyProject[] = [
         title: 'UIST 2026 Paper Presentation',
         body: [
           'HCI分野の国際会議であるUIST 2026（The 39th Annual ACM Symposium on User Interface Software and Technology, 2026年11月2–5日, 米国デトロイト）にて、Dishplayをフルペーパーとして採択・登壇発表しました。',
-        ],
-        links: [
-          { label: 'Paper (ACM DL)', href: 'https://doi.org/10.1145/3830398.3830592' },
-          { label: 'Video (YouTube)', href: 'https://www.youtube.com/watch?v=_L762xLqtdA&t=13s' },
         ],
         media: [
           {

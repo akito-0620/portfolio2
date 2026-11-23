@@ -10,6 +10,8 @@ export const profile = {
     { label: 'GitHub', href: 'https://github.com/akito-0620' },
     { label: 'WISS 発表動画', href: 'https://youtu.be/_SicNRbZ488' },
     { label: 'WISS 論文', href: 'https://www.wiss.org/WISS2025Proceedings/data/paper/07.pdf' },
+    { label: 'UIST 発表動画', href: 'https://www.youtube.com/watch?v=_L762xLqtdA&t=13s' },
+    { label: 'UIST 論文', href: 'https://doi.org/10.1145/3830398.3830592' },
   ],
   research: [
     'Human-Computer Interaction',
