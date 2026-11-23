@@ -543,6 +543,23 @@ a {
   opacity: 0.7;
 }
 
+.profile__email {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+
+.profile__email-label {
+  color: var(--color-text-muted);
+}
+
+.profile__email-address {
+  color: var(--color-text);
+  word-break: break-all;
+  user-select: all;
+}
+
 .profile__tag {
   font-size: 0.85rem;
   color: var(--color-text-muted);

@@ -49,11 +49,15 @@ export default function HomePage() {
             <div className="profile__meta-col">
               <h3 className="profile__meta-heading">プロフィール</h3>
               <ul className="profile__link-list">
+                <li className="profile__email">
+                  <span className="profile__email-label">Email</span>
+                  <span className="profile__email-address">{profile.email}</span>
+                </li>
                 {profile.links.map(link => (
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      target={link.href.startsWith('mailto') ? undefined : '_blank'}
+                      target="_blank"
                       rel="noopener noreferrer"
                       className="profile__link"
                     >
