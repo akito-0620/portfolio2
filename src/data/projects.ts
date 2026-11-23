@@ -129,20 +129,22 @@ export const projects: AnyProject[] = [
         body: [
           'HCI分野の国際会議であるUIST 2026（The 39th Annual ACM Symposium on User Interface Software and Technology, 2026年11月2–5日, 米国デトロイト）にて、Dishplayをフルペーパーとして採択・登壇発表しました。',
           '国立陽明交通大学（台湾）との共同研究として、食品そのものを表示媒体とするアプローチを国際的な研究コミュニティに向けて発表しました。',
+          '発表の様子は、UIST公式LinkedInアカウントの会期2日目ハイライトでも紹介されました。',
         ],
         links: [
           { label: 'Paper (ACM DL)', href: 'https://doi.org/10.1145/3830398.3830592' },
+          { label: 'Video (YouTube)', href: 'https://www.youtube.com/watch?v=_L762xLqtdA&t=13s' },
         ],
         media: [
           {
             type: 'image',
             src: '/assets/dishplay/07_uist2026/uist_presentation.jpg',
-            alt: 'UIST 2026 presentation (photo coming soon)',
+            alt: 'UIST 2026 paper presentation at Detroit Renaissance Center',
           },
           {
             type: 'image',
-            src: '/assets/dishplay/07_uist2026/uist_venue.jpg',
-            alt: 'UIST 2026 venue (photo coming soon)',
+            src: '/assets/dishplay/07_uist2026/uist_linkedin_highlight.png',
+            alt: 'Featured in ACM UIST Conference LinkedIn Day 2 highlights',
           },
         ],
       },
