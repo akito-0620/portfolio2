@@ -128,7 +128,6 @@ export const projects: AnyProject[] = [
         title: 'UIST 2026 Paper Presentation',
         body: [
           'HCI分野の国際会議であるUIST 2026（The 39th Annual ACM Symposium on User Interface Software and Technology, 2026年11月2–5日, 米国デトロイト）にて、Dishplayをフルペーパーとして採択・登壇発表しました。',
-          '国立陽明交通大学（台湾）との共同研究として、食品そのものを表示媒体とするアプローチを国際的な研究コミュニティに向けて発表しました。',
           '発表の様子は、UIST公式LinkedInアカウントの会期2日目ハイライトでも紹介されました。',
         ],
         links: [
