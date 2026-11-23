@@ -136,8 +136,8 @@ export const projects: AnyProject[] = [
           },
           {
             type: 'image',
-            src: '/assets/dishplay/07_uist2026/uist_linkedin_highlight.png',
-            alt: 'Featured in ACM UIST Conference LinkedIn Day 2 highlights',
+            src: '/assets/dishplay/07_uist2026/uist_reception.jpg',
+            alt: 'At the UIST 2026 reception in Detroit',
           },
         ],
       },
